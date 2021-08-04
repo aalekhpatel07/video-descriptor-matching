@@ -5,14 +5,14 @@ import (
 	// "io"
 
 	// factor "github.com/video-descriptor-matching/compact/factor"
-	vidio "github.com/video-descriptor-matching/vidio"
+	//vidio "github.com/video-descriptor-matching/vidio"
 )
 
 func main() {
 	// w, h := vidio.GetVideoSize("data/smiling.mp4")
-	var fileName = "data/smiling.mp4"
+	var fileName string = "data/smiling.mp4"
 
-	fmt.Println(vidio.GetFrames(fileName))
+	fmt.Println(fileName)
 	// _, pw1 := io.Pipe()
 	// pr2, pw2 := io.Pipe()
 
